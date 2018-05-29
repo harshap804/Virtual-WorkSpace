@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+
+  "name": "SunDown VWS",
+	"short_name": "SunDown VWS",
+  "description": "Personal Workspace",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": {
+      
+    },
+    "default_title": "SunDown VWS",
+    "default_popup": "popup.html"
+  },
+
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+
+  
+  "permissions": [
+    "tabs",
+    "storage"
+  ]
+
+}
